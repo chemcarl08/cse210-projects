@@ -1,0 +1,12 @@
+[
+  {
+    "Prompt": "If I had one thing I could do over today, what would it be?",
+    "Response": "to go to the gym",
+    "Date": "2024-01-26T06:45:30.4075671-06:00"
+  },
+  {
+    "Prompt": "How did I see the hand of the Lord in my life today?",
+    "Response": "i woke up healthy",
+    "Date": "2024-01-26T06:45:54.0701586-06:00"
+  }
+]
