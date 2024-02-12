@@ -1,0 +1,3 @@
+SimpleGoal,pray,50,True
+EternalGoal,attend temple,50,False
+ChecklistGoal,go to church,100,True
