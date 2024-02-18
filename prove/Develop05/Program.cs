@@ -23,7 +23,7 @@ public abstract class Goal
 
     public virtual void RecordEvent()
     {
-        // Default implementation or leave it empty
+        
     }
 
     public int Points => points;  // Make the points property accessible
@@ -131,7 +131,7 @@ public class User
         if (goalIndex >= 0 && goalIndex < goals.Count)
         {
             goals[goalIndex].RecordEvent();
-            score += goals[goalIndex].Points;  // Use the Points property
+            score += goals[goalIndex].Points;
         }
         else
         {
@@ -152,7 +152,6 @@ public class User
             {
                 JsonSerializer.Serialize(fs, this);
             }
-            //Console.WriteLine("Data saved successfully!");
         }
         catch (Exception ex)
         {
